@@ -1,0 +1,49 @@
+{
+  "name": "simple-vue",
+  "version": "1.0.0",
+  "description": "简单的类似于vue的双向绑定发的实现",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "start": "npm run dev",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "loader-utils": "^1.1.0",
+    "minimize": "^2.2.0",
+    "p-try": "^1.0.0",
+    "sockjs-client": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^1.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.0.8",
+    "precss": "^3.1.2",
+    "qs": "^6.5.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Wang93/simple-vue.git"
+  },
+  "author": "michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Wang93/simple-vue/issues"
+  },
+  "homepage": "https://github.com/Michael-Wang93/simple-vue#readme"
+}
