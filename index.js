@@ -1,1 +1,1 @@
-var ss = 'ddd'
+import Vue from './src/vue'
